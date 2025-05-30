@@ -1,0 +1,70 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Saksham Jain | Portfolio</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron&family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <!-- Link to external CSS -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <nav>
+    <div class="logo">Choti</div>
+    
+    <div class="menu-toggle" aria-label="Toggle navigation menu" role="button" tabindex="0">☰</div>
+    <ul id="nav-links">
+      
+      <li><a href="#features">features</a></li>
+      <li><a href="#Future Updation">Future Updation</a></li>
+      <li><a href="#Contribute">Contribute In This</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav> -->
+ 
+  .ready
+   - var t = -1
+   - var n = -1
+   .letter.R
+      while n++ < 10
+        .block(style={ "--index": ++t, "--angle": (147 * t) % 360, "--sign": t % 2 ? 1 : -1, "grid-area": "a" + (n+1) })
+          .face.face-1
+          .face.face-2
+          .face.face-3
+
+   - n = -1;
+   .letter.E
+      while n++ < 10
+        .block(style={ "--index": ++t, "--angle": (-147 * t) % 360, "--sign": t % 2 ? 1 : -1, "grid-area": "a" + (n+1) })
+          .face.face-1
+          .face.face-2
+          .face.face-3
+
+   - n = -1;
+   .letter.A
+      while n++ < 9
+        .block(style={ "--index": ++t, "--angle": (147 * t) % 360, "--sign": t % 2 ? 1 : -1, "grid-area": "a" + (n+1) })
+          .face.face-1
+          .face.face-2
+          .face.face-3
+          
+   - n = -1;
+   .letter.D
+      while n++ < 10
+        .block(style={ "--index": ++t, "--angle": (-147 * t) % 360, "--sign": t % 2 ? 1 : -1, "grid-area": "a" + (n+1) })
+          .face.face-1
+          .face.face-2
+          .face.face-3
+          
+   - n = -1;
+   .letter.Y
+      while n++ < 7
+        .block(style={ "--index": ++t, "--angle": (147 * t) % 360, "--sign": t % 2 ? 1 : -1, "grid-area": "a" + (n+1) })
+          .face.face-1
+          .face.face-2
+          .face.face-3
