@@ -1,0 +1,7 @@
+Flask
+flask-cors
+openai
+newsapi
+wikipedia
+datetime
+pyjokes
